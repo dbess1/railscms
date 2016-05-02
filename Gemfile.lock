@@ -17,6 +17,15 @@ GIT
       sass-rails
       sprockets (< 4)
 
+GIT
+  remote: git://github.com/boontdustie/active_admin_editor.git
+  revision: efc7df212173cbac65dc95ed50e6f5917ae049c0
+  specs:
+    active_admin_editor (1.1.0)
+      activeadmin (>= 0.4.0)
+      ejs
+      rails (>= 3.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -39,10 +48,6 @@ GEM
       erubis (~> 2.7.0)
       rails-dom-testing (~> 1.0, >= 1.0.5)
       rails-html-sanitizer (~> 1.0, >= 1.0.2)
-    active_admin_editor (1.1.0)
-      activeadmin (>= 0.4.0)
-      ejs
-      rails (>= 3.0.0)
     activejob (4.2.6)
       activesupport (= 4.2.6)
       globalid (>= 0.3.0)
@@ -214,13 +219,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  active_admin_editor
+  active_admin_editor!
   activeadmin!
   autoprefixer-rails
   bootstrap-sass (~> 3.2.0)
   byebug
   coffee-rails (~> 4.1.0)
-  devise
+  devise (~> 4.0)
   font-awesome-rails
   jbuilder (~> 2.0)
   jquery-rails
